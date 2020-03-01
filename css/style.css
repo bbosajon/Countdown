@@ -1,0 +1,31 @@
+body { 
+    font-family: 'lato', sans-serif;
+    color: gray;
+    text-align: center;
+    font-weight: 700;
+    font-size: 70px;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.center {
+    text-align: center;
+    margin-top: 232px;
+}
+
+
+body {
+    background-image: url("../img/new-year.jpg");
+    
+  }
+
+  .year {
+      opacity: 0.2;
+      font-size: 200px;
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1;
+  }
